@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="home">
+      <div class="navbar-radal">
+        <img class="logo" src="../images/radal.png" />
+        <a class="boton-navbar" href="./index.html">HOME</a>
+        <a class="boton-navbar" href="#">QUIÉNES SOMOS</a>
+        <a class="boton-navbar active" href="#">PRODUCTOS</a>
+        <a class="boton-navbar" href="#">CONTACTO</a>
+        <a class="link-facebook" href="#"
+          ><i class="fa-brands fa-facebook facebook"></i
+        ></a>
+      </div>
+
+      <div class="columna-2">
+        <div class="encabezado">
+          <h2 class="productos-titulo">Productos</h2>
+          <img class="imagen-logo" src="../images/marca.png" alt="" />
+        </div>
+        <div class="carrusel">
+          <div class="carrusel-interior">
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/1.jpg" alt="Imagen 1" />
+                <div class="tarjeta-texto">Puertas - portones</div>
+                <p class="parrafo">
+                  Contamos con una gran variedad de puertas y portones, las
+                  cuales pueden ser de una o dos hojas, y los portones de 3 y 4
+                  hojas, con la posibilidad de plegar las hojas una contra otra
+                  logrando una máxima apertura.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/2.jpg" alt="Imagen 2" />
+                <div class="tarjeta-texto">Ventanas</div>
+                <p class="parrafo">
+                  Contamos con una amplia variedad de aberturas con diferentes
+                  formatos y modos de apertura. Las cuales cada tipología puede
+                  adaptarse al diseño de su vivienda y comodidad del cliente.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/3.jpg" alt="Imagen 3" />
+                <div class="tarjeta-texto">Puerta - ventana</div>
+                <p class="parrafo">
+                  Esta tipología normalmente utilizada para salidas a exteriores
+                  aprovechando la mayor luminosidad permite correr las hojas
+                  sobre una guía, con lo que evitamos la problemática del
+                  barrido de las puertas de abrir.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/4.jpg" alt="Imagen 4" />
+                <div class="tarjeta-texto">Encuentro vidrio con vidrio</div>
+                <p class="parrafo">
+                  Los encuentros entre vidrios permiten aprovechar la mejor
+                  visual en las esquinas, dándole mayor jerarquía a la vivienda.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/5.jpg" alt="Imagen 5" />
+                <div class="tarjeta-texto">Baranda escalera</div>
+                <p class="parrafo">
+                  Las barandas en las escaleras son un elemento de protección
+                  contra caídas y ayudan a ser más fácil ascender por las
+                  escaleras.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/6.jpg" alt="Imagen 6" />
+                <div class="tarjeta-texto">Baranda pileta</div>
+                <p class="parrafo">
+                  Así como las barandas de escaleras, las barandas para las
+                  piletas cumplen una función importante al impedir el acceso a
+                  las mismas. Evitando accidentes imprevistos y el ingreso de
+                  mascotas.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/7.jpg" alt="Imagen 7" />
+                <div class="tarjeta-texto">Hueco bajo escalera</div>
+                <p class="parrafo">
+                  Los huecos bajo las escaleras generalmente son utilizados para
+                  lugares de guardado. Con nuestros productos se puede encontrar
+                  una solución simple y elegante.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/8.jpg" alt="Imagen 8" />
+                <div class="tarjeta-texto">Piel de vidrio</div>
+                <p class="parrafo">
+                  La Piel de Vidrio consiste en paños vidriados totalmente
+                  etéreos, unidos a una estructura interior de aluminio.
+                  Permitiendo sistemas de apertura del tipo batiente y fijos.
+                </p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <div class="tarjeta">
+                <img src="../images/productos/9.jpg" alt="Imagen 9" />
+                <div class="tarjeta-texto">Techo vidriado</div>
+                <p class="parrafo">
+                  El techo vidriado le da al usuario la posibilidad de
+                  aprovechar espacios exteriores, protegiéndolo de los factores
+                  climáticos. Permitiendo el mayor uso de luz solar en el día y
+                  las mejores vistas de un cielo estrellado en las noches.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carrusel-control previo"
+            onclick="diapositivaAnterior()"
+          >
+            &#10094;
+          </button>
+          <button
+            class="carrusel-control siguiente"
+            onclick="diapositivaSiguiente()"
+          >
+            &#10095;
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
