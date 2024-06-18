@@ -1,0 +1,247 @@
+body {
+    font-family: "Carrois Gothic SC", sans-serif !important;
+    background-color: #212121 !important;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    background-color: #2d2d2d;
+}
+
+.navbar-radal {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 1rem;
+    width: 16%;
+    height: 30rem;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.boton-navbar {
+    color: #999999;
+    font-size: 11.3px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    border: none;
+    padding: 0;
+    margin-top: 4px;
+    height: 1.2rem;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.boton-navbar:hover {
+    color: #dc2217;
+}
+
+.active {
+    color: #dc2217;
+}
+
+.link-facebook {
+    text-decoration: none;
+    color: #999999;
+}
+
+.facebook {
+    font-size: 20px;
+    margin: 1.7rem 0.2rem;
+    transition: color 0.5s;
+}
+
+.facebook:hover {
+    color: #2a4ab3;
+}
+
+.imagen {
+    width: 30rem !important;
+}
+
+.logo-2 {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+}
+
+.imagen-logo {
+    width: 4rem;
+    height: 4rem;
+    margin: 1.5rem;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: opacity 1s;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+
+
+.carrusel {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.carrusel-interior {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-item {
+    min-width: 25%;
+    /* 100% divided by 4 cards */
+    box-sizing: border-box;
+
+}
+
+.tarjeta {
+    background-color: #fff;
+    overflow: hidden;
+    margin: 10px;
+    height: 20rem;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.tarjeta-texto {
+    padding: 15px 0 0 13px;
+    background-color: #fff;
+    color: rgb(102, 102, 102);
+    font-weight: 800;
+    text-align: start;
+    font-family: "Carrois Gothic SC", sans-serif !important;
+}
+
+.carrusel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carrusel-control.previo {
+    left: 10px;
+}
+
+.carrusel-control.siguiente {
+    right: 10px;
+}
+
+.parrafo {
+    margin: 0.7rem;
+    font-family: "Carrois Gothic SC", sans-serif !important;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+}
+
+.columna-2 {
+    width: 100%;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.productos-titulo {
+    color: #dc2217;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 18px 0 20px 10px;
+}
+
+.contenido {
+    width: 90%;
+    height: 32rem;
+    display: flex;
+}
+
+.logo-3 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.contenido-texto {
+    margin: 2rem;
+    width: 24rem;
+}
+
+.categoria {
+    color: #dc2217;
+}
+
+.primer-parrafo {
+    color: #666666;
+}
+
+.segundo-parrafo {
+    color: #cccccc;
+}
+
+.volver {
+    color: #dc2217;
+}
+
+.producto-titulo {
+    color: #dc2217;
+    font-weight: 300;
+}
