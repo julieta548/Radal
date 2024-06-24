@@ -1,52 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Contacto</title>
-</head>
-<body>
-    <h4>Comunicate con Nosotros</h4>
-    <title>Comunicate con Nosotros</title>
-    <p> A través de este formulario, usted podrá solicitar presupuestos o realizar las consultas que considere necesarias. Le pedimos que complete todos los datos que figuran en la pantalla y recuerde que en Radal estamos a su entera disposición</p>
-    <div class="Contacto" style="margin-left: 25px;"> 
-        <span style="font-size: 12;">Telefonos</span>
-        <br>
-        Fabrica: 
-        <br>
-        0261 4377888
-        <br>
+  </head>
+  <body>
+    <div class="contacto">
+      <div class="navbar-radal">
+        <img class="logo" src="../images/radal.png" />
+        <a class="boton-navbar" href="../layout/index.html">HOME</a>
+        <a class="boton-navbar" href="#">QUIÉNES SOMOS</a>
+        <a class="boton-navbar" href="./productos.html">PRODUCTOS</a>
+        <a class="boton-navbar active" href="#">CONTACTO</a>
+        <a class="link-facebook" href="#"
+          ><i class="fa-brands fa-facebook facebook"></i
+        ></a>
+      </div>
+      <div class="datos-contacto">
+        <div class="contacto-texto">
+          <h4 class="bajada">Comunicate con nosotros</h4>
+          <h2 class="titulo-contacto">Contacto</h2>
+          <p class="texto-contacto">
+            A través de este formulario, usted podrá solicitar presupuestos o
+            realizar las consultas que considere necesarias. Le pedimos que
+            complete todos los datos que figuran en la pantalla y recuerde que
+            en Radal estamos a su entera disposición.
+          </p>
+        </div>
+
+        <div class="info" style="margin-left: 25px">
+          <div class="telefonos">
+            <h5 class="titulos">Telefonos</h5>
+            <h5 class="datos">Fabrica:</h5>
+            <h5 class="datos">0261 4377888</h5>
+            <br />
+            <h5 class="datos">Ventas</h5>
+            <h5 class="datos">+54 9 261 4540491</h5>
+            <h5 class="datos">+54 9 261 2445977</h5>
+          </div>
+          <div class="divisor"></div>
+          <div class="direccion">
+            <h5 class="titulos">Direccion</h5>
+            <h5 class="datos">Showroom: O`Brien 32,</h5>
+            <h5 class="datos">esquina Costanera.</h5>
+            <h5 class="datos">Guaymallén - Mendoza</h5>
+            <br />
+            <h5 class="datos">Fabrica: Italia 89</h5>
+            <h5 class="datos">Las Heras - Mendoza</h5>
+          </div>
+          <div class="divisor"></div>
+          <div class="email">
+            <h5 class="titulos">Email</h5>
+            <h5 class="datos">radal.sa@hotmail.com</h5>
+          </div>
+        </div>
+
+        <div class="formulario">
+          <form class="form">
+            <div class="nombre-apellido">
+              <input
+                class="nombre"
+                type="Nombre y Apellido"
+                name="cliente"
+                placeholder="Nombre y Apellido"
+                required
+              />
+              <input
+                class="email-input"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="cuadro-boton">
+              <input
+                class="cuadro"
+                type="text"
+                name="consulta"
+                placeholder="Mensaje"
+                required
+              />
+              <input class="boton" type="submit" value="Enviar" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="logo-4">
+        <img class="imagen-logo" src="../images/marca.png" alt="" />
+      </div>
     </div>
-    <div>
-        <span>Direccion</span>
-        <br>
-        Showroom: O`Brien 32, esquina Costanera.  
-        <br>
-        Guaymallén - Mendoza 
-        <br>
-        <br>
-         Fabrica 
-        <br>
-         Italia 89
-        <br>
-        Las Heras - Mendoza
-     </div>
-     <div>
-        <span>Email</span>
-        <br>
-        radal.sa@hotmail.com
-        <br>
-     </div>
-    
-    
-    <div class="formulario">
-        <form>
-            <input type="Nombre y Apellido" name="cliente" placeholder="Nombre y Apellido" required>
-            <input type="email" name="email"  placeholder="Ingrese su mail" required>
-            <input type="text" name="consulta" placeholder="Escriba su consulta" required>
-         <input type="submit" value="Enviar">
-        </form>
-    </div>
-    <img src="C:\Users\alber\OneDrive\Escritorio\Untitled Export" alt="">
-</body>
+  </body>
 </html>

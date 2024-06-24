@@ -255,3 +255,143 @@ body {
     color: #dc2217;
     font-weight: 300;
 }
+
+body a {
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    color: #dc2217;
+}
+
+.titulo-producto:hover {
+    color: #dc2217;
+}
+
+.contacto {
+    display: flex;
+    margin-top: 3rem;
+    background-color: #2D2D2D;
+}
+
+.datos-contacto {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.bajada {
+    color: #dc2217;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.titulo-contacto {
+    color: #dc2217;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.texto-contacto {
+    color: #666666;
+    width: 70%;
+}
+
+.info {
+    display: flex;
+}
+
+.titulos {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.datos {
+    color: #ffff;
+    line-height: 0.2;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.telefonos,
+.direccion,
+.email {
+    margin-right: 1rem;
+}
+
+.divisor {
+    height: 11rem;
+    background-color: #666666;
+    width: 1px;
+    margin: 1rem;
+}
+
+.formulario {
+    margin-top: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    margin-left: 1rem;
+}
+
+.nombre-apellido {
+    display: flex;
+}
+
+.cuadro-boton {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre,
+.email-input,
+.cuadro {
+    background-color: #666666;
+}
+
+.nombre,
+.email-input {
+    width: 158px;
+    border: none;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 4px 5px 2px;
+}
+
+.nombre::placeholder,
+.email-input::placeholder,
+.cuadro::placeholder {
+    color: #ffff;
+    font-family: "Carrois Gothic SC", sans-serif !important;
+    font-size: 12px;
+}
+
+.cuadro {
+    height: 6rem;
+    width: 340px;
+    border: none;
+}
+
+.cuadro::placeholder {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+.boton {
+    background-color: #666666;
+    border: none;
+    color: #fff;
+    margin: 8px 0 0 56px;
+    padding: 4px 5px 2px;
+    width: 7rem;
+    align-self: center;
+}
+
+.logo-4 {}
