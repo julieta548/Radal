@@ -58,7 +58,6 @@ body {
 .facebook:hover {
     color: #2a4ab3;
 }
-
 .imagen {
     width: 30rem !important;
 }
@@ -82,7 +81,6 @@ body {
     overflow: hidden;
     border: none;
 }
-
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -141,7 +139,6 @@ body {
     box-sizing: border-box;
 
 }
-
 .tarjeta {
     background-color: #fff;
     overflow: hidden;
@@ -164,6 +161,12 @@ body {
     font-family: "Carrois Gothic SC", sans-serif !important;
 }
 
+.tarjeta-texto:hover {
+    color: #dc2217;
+}
+
+
+
 .carrusel-control {
     position: absolute;
     top: 50%;
@@ -182,12 +185,18 @@ body {
 .carrusel-control.siguiente {
     right: 10px;
 }
-
 .parrafo {
     margin: 0.7rem;
     font-family: "Carrois Gothic SC", sans-serif !important;
     color: rgb(102, 102, 102);
     font-size: 12px;
+}
+.carousel, .producto-quienesson {
+    width: 600px;
+}
+
+.parrafo:hover {
+    color: #dc2217;
 }
 
 .columna-2 {
@@ -198,50 +207,57 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.parrafo {
+    margin: 0.7rem;
+    font-family: "Carrois Gothic SC", sans-serif !important;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+}
 
-
-.productos-titulo {
+.parrafo:hover {
     color: #dc2217;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 36px;
-    margin: 18px 0 20px 10px;
 }
 
-.contenido {
-    width: 90%;
-    height: 32rem;
-    display: flex;
-}
-
-.logo-3 {
+.columna-2 {
     width: 100%;
+}
+.box{
+    width: 400px;
+    height: 600px;
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+      
+}
+
+.encabezado {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
-
-.contenido-texto {
-    margin: 2rem;
-    width: 24rem;
-}
-
-.categoria {
+.quienes-volanta {
     color: #dc2217;
-}
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    text-align: center;
 
-.primer-parrafo {
+}
+.quienes-titulo {
+    color: #dc2217;
+    text-align: left;
+    font-size: 18px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 300 !important;
+}
+.quienes-bajada{
     color: #666666;
+    text-align: center;
+    font-size: 13px;
+    font-family:'Open Sans', sans-serif; 
 }
-
-.segundo-parrafo {
-    color: #cccccc;
-}
-
-.volver {
-    color: #dc2217;
-}
-
-.producto-titulo {
-    color: #dc2217;
-    font-weight: 300;
+.quienes-texto{
+    color:white;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 }
