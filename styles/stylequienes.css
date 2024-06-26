@@ -222,11 +222,11 @@ body {
     width: 100%;
 }
 .box{
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     text-align: left;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
       
 }
 
@@ -239,7 +239,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
+    font-weight: 200;
+    margin-bottom: 0;
 
 }
 .quienes-titulo {
@@ -248,16 +250,24 @@ body {
     font-size: 36px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300 !important;
+    margin: 0;
+    letter-spacing: -1;
+    margin-left: -2;
+    line-height: 40px;
 }
 .quienes-bajada{
     color: #666666;
-    text-align: center;
-    font-size: 13px;
+    text-align: left;
+    font-size: 15px;
     font-family:'Open Sans', sans-serif; 
+    font-weight: 200px;
+    line-height: 18px;
+    margin-bottom: 11px;
 }
 .quienes-texto{
     color:white;
-    text-align: center;
+    text-align: left;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
 }
