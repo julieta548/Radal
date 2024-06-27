@@ -20,7 +20,9 @@
         <a class="boton-navbar" href="../layout/index.html">HOME</a>
         <a class="boton-navbar" href="../layout/quienes.html">QUIÉNES SOMOS</a>
         <a class="boton-navbar" href="./productos.html">PRODUCTOS</a>
-        <a class="boton-navbar active" href="../layout/contacto.html">CONTACTO</a>
+        <a class="boton-navbar active" href="../layout/contacto.html"
+          >CONTACTO</a
+        >
         <a class="link-facebook" href="#"
           ><i class="fa-brands fa-facebook facebook"></i
         ></a>
@@ -66,16 +68,20 @@
         </div>
 
         <div class="formulario">
-          <form class="form">
+          <form class="form" id="contact-form">
             <div class="nombre-apellido">
               <input
+                id="name"
+                value="name"
                 class="nombre"
                 type="Nombre y Apellido"
-                name="cliente"
+                name="name"
                 placeholder="Nombre y Apellido"
                 required
               />
               <input
+                id="email"
+                value="email"
                 class="email-input"
                 type="email"
                 name="email"
@@ -84,13 +90,15 @@
               />
             </div>
             <div class="cuadro-boton">
-              <input
+              <textarea
+                id="message"
+                value="message"
                 class="cuadro"
                 type="text"
-                name="consulta"
+                name="message"
                 placeholder="Mensaje"
                 required
-              />
+              ></textarea>
               <input class="boton" type="submit" value="Enviar" />
             </div>
           </form>
@@ -100,5 +108,34 @@
         <img class="imagen-logo" src="../images/marca.png" alt="" />
       </div>
     </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "7lmgtzoNwDr5dyaHe",
+        });
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm("service_blmtd9i", "template_znab4m5", this).then(
+              () => {
+                alert("SUCCESS!");
+              },
+              (error) => {
+                alert("FAILED...", error);
+              }
+            );
+          });
+      };
+    </script>
   </body>
 </html>
