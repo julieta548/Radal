@@ -128,10 +128,10 @@
             // these IDs from the previous steps
             emailjs.sendForm("service_blmtd9i", "template_znab4m5", this).then(
               () => {
-                alert("SUCCESS!");
+                alert("¡Enviado con éxito!");
               },
               (error) => {
-                alert("FAILED...", error);
+                alert("Falló el envío", error);
               }
             );
           });
