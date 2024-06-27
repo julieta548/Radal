@@ -14,9 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin: 1rem;
-    width: 16%;
+    margin: 2rem;
+    width: 12%;
     height: 30rem;
+}
+
+.navbar-contacto {
+    width: 16% !important;
 }
 
 .logo {
