@@ -58,7 +58,18 @@ body {
 .facebook:hover {
     color: #2a4ab3;
 }
-
+.link-whatsapp {
+    text-decoration: none;
+    color: #999999;
+}
+.whatsapp {
+    font-size: 20px;
+    margin: 1.7rem 0.2rem;
+    transition: color 0.5s;
+}
+.whatsapp:hover {
+   color: green;
+}
 .imagen {
     width: 30rem !important;
 }
