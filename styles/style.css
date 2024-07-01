@@ -410,4 +410,16 @@ body a {
     align-self: center;
 }
 
-.logo-4 {}
+@media (max-width: 600px) { 
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-radal {
+        width: 30%;
+    }
+
+    
+}
