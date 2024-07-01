@@ -419,7 +419,23 @@ body a {
 
     .navbar-radal {
         width: 30%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 250px;
     }
 
-    
+    .boton-navbar {
+        font-size: 15px;
+
+    }
+    .logo {
+        width: 80px;
+    }
+    .logo-2 {
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
 }
