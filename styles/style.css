@@ -484,6 +484,23 @@ body a {
         height: auto;
         display: block;
     }
+    .quienes-texto {
+        font-size: 14px;
+    }
+    .imagen-logo {
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .tarjeta .descripcion-producto .parrafo {
+        font-size: 14px;
+    }
+    .info .telefonos .datos {
+        line-height: 1.8;
+    }
+    .info .direccion .datos {
+        line-height: 1.8;
+    }
 }
 
 .carrusel-interior {
