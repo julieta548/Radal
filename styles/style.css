@@ -642,6 +642,14 @@ body a {
     .logo-p {
         justify-content: center;
     }
+
+    .contenido-quienes {
+        height: 27rem;
+    }
+
+    .box {
+        height: 600px;
+    }
 }
 
 .carrusel-interior {
