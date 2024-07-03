@@ -97,14 +97,16 @@ body {
 .carousel {
     position: relative;
     max-width: 800px;
-    width: 100%;
     overflow: hidden;
     border: none;
+    width: 100%;
 }
 
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    height: 100%;
+
 }
 
 .carousel-item {
@@ -116,6 +118,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
 }
 
 .carousel-control {
@@ -238,13 +241,17 @@ body {
 }
 
 .contenido {
-    width: 90%;
+    width: 100%;
     height: 32rem;
     display: flex;
 }
 
+.box {
+    padding: 10px 0px 0px 10px;
+}
+
 .logo-3 {
-    width: 100%;
+    width: 15%;
     display: flex;
     justify-content: end;
 }
@@ -252,6 +259,11 @@ body {
 .contenido-texto {
     margin: 2rem;
     width: 24rem;
+}
+
+.logo-p {
+    display: flex;
+    justify-content: end;
 }
 
 .categoria {
@@ -457,7 +469,7 @@ body a {
 
     .tarjeta {
         width: 25%;
-        margin: 1rem 0 2rem 2rem;
+        margin: 1rem 0 2rem 1.83rem;
     }
 
     .contacto {
@@ -585,8 +597,51 @@ body a {
         width: 7rem;
         align-self: center;
     }
-    
 
+    .logo-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .producto-individual {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido {
+        height: 55rem;
+    }
+
+    .texto {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contenido-texto {
+        width: 80%;
+    }
+
+    .categoria,
+    .producto-titulo,
+    .primer-parrafo,
+    .segundo-parrafo {
+        width: 18rem;
+    }
+
+    .logo-p {
+        justify-content: center;
+    }
 }
 
 .carrusel-interior {
@@ -596,12 +651,10 @@ body a {
 
 .carrusel-item {
     flex: 0 0 25%;
-    /* Por defecto, 4 elementos por vista */
 }
 
 @media (max-width: 600px) {
     .carrusel-item {
         flex: 0 0 100%;
-        /* Una tarjeta por vista en pantallas pequeñas */
     }
 }
