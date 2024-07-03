@@ -462,6 +462,8 @@ body a {
 
     .contacto {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .navbar-contacto {
@@ -469,10 +471,23 @@ body a {
     }
 
     .datos-contacto {
+        display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        margin-right: 4.3rem;
     }
 
+    .contacto-texto {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-contacto {
+        text-align: center;
+    }
 
     .contenido {
         display: flex;
@@ -484,23 +499,94 @@ body a {
         height: auto;
         display: block;
     }
+
     .quienes-texto {
         font-size: 14px;
     }
+
     .imagen-logo {
         align-items: center;
         align-self: center;
         align-content: center;
     }
+
     .tarjeta .descripcion-producto .parrafo {
         font-size: 14px;
     }
+
     .info .telefonos .datos {
         line-height: 1.8;
     }
+
     .info .direccion .datos {
         line-height: 1.8;
     }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .divisor {
+        width: 16rem;
+        height: 1px;
+    }
+
+    .titulos {
+        font-size: 20px;
+    }
+
+    .datos {
+        font-size: 16px;
+    }
+
+    .logo-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .nombre-apellido {
+        flex-direction: column;
+    }
+
+    .nombre,
+    .email-input {
+        width: 98%;
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .cuadro-boton {
+        width: 100%;
+    }
+
+    .cuadro {
+        height: 10rem;
+        width: 100%;
+        border: none;
+    }
+
+    .formulario {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 0rem;
+    }
+
+    .boton {
+        margin: 8px 0 0 8px;
+        padding: 4px 5px 2px;
+        width: 7rem;
+        align-self: center;
+    }
+    
+
 }
 
 .carrusel-interior {
@@ -509,11 +595,13 @@ body a {
 }
 
 .carrusel-item {
-    flex: 0 0 25%; /* Por defecto, 4 elementos por vista */
+    flex: 0 0 25%;
+    /* Por defecto, 4 elementos por vista */
 }
 
 @media (max-width: 600px) {
     .carrusel-item {
-        flex: 0 0 100%; /* Una tarjeta por vista en pantallas pequeñas */
+        flex: 0 0 100%;
+        /* Una tarjeta por vista en pantallas pequeñas */
     }
 }
