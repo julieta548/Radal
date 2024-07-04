@@ -6,8 +6,9 @@ body {
 .home {
     display: flex;
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: 2rem;
     background-color: #2d2d2d;
+    padding-bottom: 0.3rem;
 }
 
 .navbar-radal {
@@ -239,6 +240,7 @@ body {
     text-align: left;
     font-weight: 200;
     margin-bottom: 0;
+    margin-top: 4px;
 
 }
 .quienes-titulo {
@@ -260,6 +262,7 @@ body {
     font-weight: 200;
     line-height: 18px;
     margin-bottom: 11px;
+    margin-top: 7px;
     width: 93%;
 }
 .quienes-texto{
