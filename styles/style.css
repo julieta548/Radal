@@ -112,6 +112,7 @@ body {
 .carousel-item {
     min-width: 100%;
     transition: opacity 1s;
+    display: flex;
 }
 
 .carousel-item img {
